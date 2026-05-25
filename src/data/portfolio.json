@@ -1,0 +1,93 @@
+{
+  "personal": {
+    "name": "Waiz Tahseen",
+    "age": 18,
+    "role": "Full Stack Web Developer",
+    "experience": "3 Years",
+    "projectsCompleted": "30-50",
+    "bio": "I am an 18-year-old highly skilled full-stack web developer with 3 years of experience. I specialize in building complex, modern, and highly polished web applications, CRMs, and 3D experiences. With an expert ability in problem-solving, I navigate complex technical challenges effortlessly. Utilizing a hybrid workflow of AI tools and deep manual coding expertise, I deliver world-class software at unprecedented speeds."
+  },
+  "roles": [
+    "Full Stack Developer",
+    "AI-Assisted Developer",
+    "Game Developer",
+    "Web App Engineer",
+    "CRM Developer"
+  ],
+  "skills": {
+    "frontend": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Bootstrap 5"
+    ],
+    "backend": [
+      "Laravel",
+      "PHP",
+      "Django"
+    ],
+    "database": [
+      "MySQL",
+      "MongoDB"
+    ],
+    "other": [
+      "Expert Problem Solving",
+      "Game Development",
+      "APIs",
+      "Auth Systems",
+      "AI Tools"
+    ]
+  },
+  "projects": [
+    {
+      "id": "medicare-crm",
+      "title": "Boomers Insurance CRM",
+      "description": "A massive CRM portal built for a Medicare insurance company in the USA. Handled complex data routing, agent management, and analytics.",
+      "techStack": [
+        "Next.js",
+        "Node.js",
+        "MySQL",
+        "Tailwind"
+      ],
+      "image": "/projects/CRM screenshot.png",
+      "category": "CRM"
+    },
+    {
+      "id": "ai-saas",
+      "title": "AI SaaS Dashboard",
+      "description": "A fully functional AI SaaS platform allowing users to generate content with integrated billing and user management.",
+      "techStack": [
+        "React",
+        "Laravel",
+        "Tailwind",
+        "OpenAI API"
+      ],
+      "liveDemo": "https://elegant-squirrel-f204dd.netlify.app",
+      "sourceCode": "https://github.com/waiz2411/snooker-pos-frontend",
+      "image": "/projects/Snooker Saas.png",
+      "category": "SaaS"
+    },
+    {
+      "id": "fps-game",
+      "title": "Multiplayer FPS Web Game",
+      "description": "A tactical 3D shooter built entirely for the browser with multiplayer capabilities, custom loadouts, and dynamic arenas.",
+      "techStack": [
+        "Three.js",
+        "React Three Fiber",
+        "WebSockets"
+      ],
+      "liveDemo": "https://ephemeral-pie-d7a837.netlify.app",
+      "sourceCode": "https://github.com/waiz2411/3d-shooting-game",
+      "image": "/projects/3D Shooting Game.png",
+      "category": "Game Dev"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full Stack Web Developer",
+      "company": "Stream Design Studio & Freelance",
+      "period": "2023 - Present",
+      "description": "Developed and delivered 30-50 high-quality web applications, CRMs, and websites for Stream Design Studio as well as personal clients globally. Leveraged AI to accelerate development without compromising quality."
+    }
+  ]
+}
