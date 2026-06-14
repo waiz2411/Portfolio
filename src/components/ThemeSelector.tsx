@@ -34,7 +34,7 @@ export function ThemeSelector() {
   const { setTheme } = useThemeStore();
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black text-white p-4">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black text-white p-4 overflow-y-auto py-12">
       <div className="max-w-5xl w-full">
         <motion.div
           initial={{ opacity: 0, y: -20 }}

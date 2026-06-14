@@ -14,6 +14,10 @@ function generatePDF() {
         doc.fontSize(24).font('Helvetica-Bold').text(portfolioData.personal.name, { align: 'center' });
         doc.moveDown(0.2);
         doc.fontSize(12).font('Helvetica').fillColor('#555555').text(`${portfolioData.personal.role} | ${portfolioData.personal.experience} Experience`, { align: 'center' });
+        doc.moveDown(0.4);
+        doc.fontSize(10).font('Helvetica').fillColor('#555555').text('portfolio: https://waizzportfolio.netlify.app', { align: 'center' });
+        doc.moveDown(0.2);
+        doc.text('email: waiztahseen@gmail.com | phone: +92 336 0186282', { align: 'center' });
         doc.moveDown(1.5);
 
         // Professional Summary
